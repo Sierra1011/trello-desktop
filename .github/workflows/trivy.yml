@@ -1,4 +1,6 @@
-name: build
+name: Build Blog site
+concurrency: ci-${{ github.ref }}
+
 on:
   push:
     branches: ["main"]
