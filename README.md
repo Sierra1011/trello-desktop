@@ -1,4 +1,4 @@
-# Trello Desktop [![CI](https://github.com/Sierra1011/trello-desktop/actions/workflows/ci.yml/badge.svg)](https://github.com/Sierra1011/trello-desktop/actions/workflows/build.yml) [![Build Blog site](https://github.com/Sierra1011/trello-desktop/actions/workflows/trivy.yml/badge.svg)](https://github.com/Sierra1011/trello-desktop/actions/workflows/trivy.yml)
+# Trello Desktop [![CI](https://github.com/Sierra1011/trello-desktop/actions/workflows/ci.yml/badge.svg)](https://github.com/Sierra1011/trello-desktop/actions/workflows/ci.yml) [![Build Blog site](https://github.com/Sierra1011/trello-desktop/actions/workflows/trivy.yml/badge.svg)](https://github.com/Sierra1011/trello-desktop/actions/workflows/trivy.yml)
 > Unofficial Trello Desktop app
 
 [![Trello Desktop](https://github.com/danielchatfield/trello-desktop/blob/master/media/screenshot.png?raw=true)](https://github.com/danielchatfield/trello-desktop/releases/latest)
