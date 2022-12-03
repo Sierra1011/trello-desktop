@@ -1,5 +1,4 @@
-# Trello Desktop [![Build Status](https://travis-ci.org/danielchatfield/trello-desktop.svg)](https://travis-ci.org/danielchatfield/trello-desktop)
-
+# Trello Desktop [![Test ](https://github.com/Sierra1011/trello-desktop/actions/workflows/ci.yml/badge.svg)](https://github.com/Sierra1011/trello-desktop/actions/workflows/build.yml)
 > Unofficial Trello Desktop app
 
 [![Trello Desktop](https://github.com/danielchatfield/trello-desktop/blob/master/media/screenshot.png?raw=true)](https://github.com/danielchatfield/trello-desktop/releases/latest)
