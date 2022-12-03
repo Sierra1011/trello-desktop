@@ -16,9 +16,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     
-    - name: NPM install
-      run: npm install
+    - name: NPM CI
+    #- run: npm install
     - run: npm ci
-    - run: npm run lint:style
-    - run: npm run lint:js
+    - run: npm lint
     - run: npm test
