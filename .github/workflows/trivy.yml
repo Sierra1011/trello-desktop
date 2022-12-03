@@ -1,5 +1,5 @@
 name: Trivy
-concurrency: ci-${{ github.ref }}
+concurrency: trivy-${{ github.ref }}
 
 on:
   push:
