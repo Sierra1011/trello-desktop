@@ -1,4 +1,4 @@
-name: Build Trello
+name: Test Trello
 concurrency: ci-${{ github.ref }}
 
 on:
