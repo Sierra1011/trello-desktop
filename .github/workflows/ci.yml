@@ -1,4 +1,4 @@
-name: TCI
+name: CI
 concurrency: ci-${{ github.ref }}
 
 on:
