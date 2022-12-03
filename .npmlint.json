@@ -1,0 +1,5 @@
+{
+   "scripts": {
+        "allow": ["node", "npm", "git"]
+    }
+}
