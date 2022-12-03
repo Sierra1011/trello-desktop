@@ -1,4 +1,4 @@
-name: Build Blog site
+name: Trivy
 concurrency: ci-${{ github.ref }}
 
 on:
