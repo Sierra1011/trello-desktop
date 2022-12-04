@@ -19,10 +19,8 @@ jobs:
     - name: NPM CI
       run: npm ci
 
-    - name: NPM test
-      run: |
-        npm test
-        exit 0
+    #- name: NPM test
+    #  run: npm test
 
     - name: NPM Build
       run: npm run build
