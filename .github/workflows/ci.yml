@@ -30,7 +30,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        test:
+        os:
           - linux
           - macos
           #- windows
@@ -43,4 +43,4 @@ jobs:
       run: npm ci
 
     - name: NPM build
-      run: npm run build:${{matrix.test}}
+      run: npm run build:${{matrix.os}}
