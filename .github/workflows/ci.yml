@@ -7,20 +7,47 @@ on:
   workflow_dispatch:
 
 jobs:   
-  build:
-    name: Build
+  test:
+    name: Test
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        test:
+          - linux
+          - macos
+          - windows
     steps:
     
     - name: Checkout code
       uses: actions/checkout@v3
     
-    - name: NPM CI
+    - name: NPM install
       run: npm ci
 
-    #- name: NPM test
-    #  run: npm test
+    - name: NPM test
+      run: npm test
 
-    - name: NPM Build
-      run: npm run build
+  build:
+    needs: test
+    name: Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        test:
+          - linux
+          - macos
+          - windows
+    steps:
+    
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    - name: NPM install
+      run: npm ci
+
+    - name: NPM build
+      run: npm run build:${{matrix.test}}
