@@ -11,13 +11,6 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    strategy:
-      fail-fast: false
-      matrix:
-        test:
-          - linux
-          - macos
-          - windows
     steps:
     
     - name: Checkout code
