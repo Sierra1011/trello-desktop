@@ -33,7 +33,7 @@ jobs:
         test:
           - linux
           - macos
-          - windows
+          #- windows
     steps:
     
     - name: Checkout code
